@@ -12,35 +12,42 @@
     <artifactId>bigdata_spark</artifactId>
 
     <properties>
-        <SPARK.VERSION>2.3.0</SPARK.VERSION>
+        <!--<SPARK.VERSION>2.3.0</SPARK.VERSION>-->
+        <SPARK.VERSION>3.0.1</SPARK.VERSION>
     </properties>
 
 
     <dependencies>
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-core_2.11</artifactId>
+            <artifactId>spark-core_2.12</artifactId>
             <version>${SPARK.VERSION}</version>
 
         </dependency>
 
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-sql_2.11</artifactId>
+            <artifactId>spark-sql_2.12</artifactId>
             <version>${SPARK.VERSION}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-streaming_2.11</artifactId>
+            <artifactId>spark-streaming_2.12</artifactId>
             <version>${SPARK.VERSION}</version>
         </dependency>
 
 
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-graphx_2.11</artifactId>
+            <artifactId>spark-graphx_2.12</artifactId>
             <version>${SPARK.VERSION}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.delta</groupId>
+            <artifactId>delta-core_2.12</artifactId>
+            <version>0.7.0</version>
         </dependency>
 
     </dependencies>

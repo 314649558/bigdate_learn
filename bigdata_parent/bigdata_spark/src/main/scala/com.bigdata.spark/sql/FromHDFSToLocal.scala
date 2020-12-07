@@ -3,10 +3,15 @@ package com.bigdata.spark.sql
 import com.bigdata.spark.SparkConnectionBase
 import org.apache.hadoop.io._
 import org.apache.hadoop.mapred.TextInputFormat
+import org.apache.spark.launcher.SparkLauncher
 
 object FromHDFSToLocal extends SparkConnectionBase{
 
   def main(args: Array[String]): Unit = {
+
+
+
+
 /*
 
     implicit val appName=this.getClass.getSimpleName

@@ -12,7 +12,7 @@ object DStreamDemo2 {
 
 
 
-    val spark = SparkSession
+    /*val spark = SparkSession
       .builder
       .appName(this.getClass.getName)
       //  .config("spark.sql.streaming.metricsEnabled",true)
@@ -45,7 +45,7 @@ object DStreamDemo2 {
 
 
     ssc.start()
-    ssc.awaitTermination()
+    ssc.awaitTermination()*/
 
 
 
