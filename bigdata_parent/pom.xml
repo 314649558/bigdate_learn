@@ -27,6 +27,8 @@
         <module>bigdata_flink</module>
         <module>bigdata_netty</module>
         <module>bigdata_kafka</module>
+        <module>bigdata_hadoop</module>
+        <module>bigdata_hive</module>
     </modules>
 
 
