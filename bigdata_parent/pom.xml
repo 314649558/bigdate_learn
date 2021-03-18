@@ -29,10 +29,6 @@
         <module>bigdata_kafka</module>
         <module>bigdata_hadoop</module>
         <module>bigdata_hive</module>
+        <module>bigdata_dubble</module>
     </modules>
-
-
-
-
-
 </project>
