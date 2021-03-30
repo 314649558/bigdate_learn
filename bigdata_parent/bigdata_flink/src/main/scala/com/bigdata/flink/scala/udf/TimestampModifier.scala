@@ -1,3 +1,4 @@
+/*
 package com.bigdata.flink.scala.udf
 
 import org.apache.flink.api.common.typeinfo.TypeInformation
@@ -18,3 +19,4 @@ class TimestampModifier extends ScalarFunction{
   }
 
 }
+*/

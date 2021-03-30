@@ -1,3 +1,4 @@
+/*
 package com.bigdata.flink.scala.kafka
 
 import java.util.Properties
@@ -45,3 +46,4 @@ object FromKafkaToKafkaDemo2 {
   }
 
 }
+*/

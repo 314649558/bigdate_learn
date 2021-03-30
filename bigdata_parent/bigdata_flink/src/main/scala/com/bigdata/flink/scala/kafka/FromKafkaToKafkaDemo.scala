@@ -17,6 +17,9 @@ object FromKafkaToKafkaDemo {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
        val inputArgs=Array("--bootstrap.servers","master.com:9092",
        "--zookeeper.connect","master.com:2181",
+       "--auto.offset.reset","latest",
+         "--key.deserializer","org.apache.kafka.common.serialization.StringDeserializer",
+         "--value.deserializer","org.apache.kafka.common.serialization.StringDeserializer",
        "--group.id","gid001")
     val params = ParameterTool.fromArgs(inputArgs)
      env.getConfig.disableSysoutLogging()

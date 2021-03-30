@@ -1,3 +1,4 @@
+/*
 package com.bigdata.flink.scala.udf
 
 import org.apache.flink.table.functions.TableFunction
@@ -8,4 +9,4 @@ class Split(spliter:String) extends TableFunction[(String, Int)]{
       collect((x,x.length))
     })
   }
-}
+}*/

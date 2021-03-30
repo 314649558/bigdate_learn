@@ -1,15 +1,9 @@
 package com.bigdata.flink.scala.udf
 
-import org.apache.flink.api.scala._
-import org.apache.flink.core.fs.FileSystem.WriteMode
-import org.apache.flink.table.api.{TableEnvironment, Types}
-import org.apache.flink.table.sinks.CsvTableSink
-import org.apache.flink.table.sources.CsvTableSource
-
 object UDFDemo {
   def main(args: Array[String]): Unit = {
 
-    val env=ExecutionEnvironment.getExecutionEnvironment
+    /*val env=ExecutionEnvironment.getExecutionEnvironment
 
     val tabEnv=TableEnvironment.getTableEnvironment(env)
 
@@ -30,7 +24,7 @@ object UDFDemo {
 
     val tableSink=new CsvTableSink("D:\\flink_dir\\target",Some(","),None,Some(WriteMode.OVERWRITE))
     table.writeToSink(tableSink)
-    env.execute()
+    env.execute()*/
 
 
   }

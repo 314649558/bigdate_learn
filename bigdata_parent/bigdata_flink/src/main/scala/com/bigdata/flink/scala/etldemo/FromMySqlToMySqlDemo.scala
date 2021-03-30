@@ -1,3 +1,4 @@
+/*
 package com.bigdata.flink.scala.etldemo
 
 
@@ -49,4 +50,4 @@ object FromMySqlToMySqlDemo extends ETLBase {
 
   }
 
-}
+}*/
