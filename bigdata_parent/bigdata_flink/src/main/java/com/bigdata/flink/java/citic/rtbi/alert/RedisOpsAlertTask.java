@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- * REDIS命理数检查
+ * REDIS每秒操作命令数告警
  * @author yuanhailong
  * @date 2021/6/2.
  */
