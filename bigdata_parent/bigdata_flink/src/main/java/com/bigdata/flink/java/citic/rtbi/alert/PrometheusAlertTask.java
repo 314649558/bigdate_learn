@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author yuanhailong
  * @date 2021/6/3.
  */
 public class PrometheusAlertTask implements MeterBinder, AlertTask {
