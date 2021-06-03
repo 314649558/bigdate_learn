@@ -11,7 +11,7 @@ public class Alert {
 
     private String remark;
 
-    private String warning;
+    private Integer warning;
 
     private Integer danger;
 
@@ -49,11 +49,11 @@ public class Alert {
         this.remark = remark;
     }
 
-    public String getWarning() {
+    public Integer getWarning() {
         return warning;
     }
 
-    public void setWarning(String warning) {
+    public void setWarning(Integer warning) {
         this.warning = warning;
     }
 
