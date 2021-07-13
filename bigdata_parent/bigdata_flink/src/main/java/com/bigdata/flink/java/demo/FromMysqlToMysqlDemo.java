@@ -1,3 +1,4 @@
+/*
 package com.bigdata.flink.java.demo;
 
 import com.bigdata.flink.scala.Constants;
@@ -12,11 +13,13 @@ import org.apache.flink.table.api.Table;
 import org.apache.flink.table.api.Types;
 import org.apache.flink.types.Row;
 
+*/
 /**
  * @author 袁海龙
  * @Date 2018-03-01
  * 利用Flink迁移Mysql数据
- */
+ *//*
+
 
 public class FromMysqlToMysqlDemo {
 
@@ -47,12 +50,14 @@ public class FromMysqlToMysqlDemo {
         env.execute();
     }
 
-    /**
+    */
+/**
      * 多个DataSet 联合查询方法
      * @param env
      * @param tabEnv
      * @return
-     */
+     *//*
+
     private static Table mutilDataSet(ExecutionEnvironment env, BatchTableEnvironment tabEnv) {
 
         //定义数据类型
@@ -92,12 +97,14 @@ public class FromMysqlToMysqlDemo {
     }
 
 
-    /**
+    */
+/**
      * 先在MYSQL里面进行sql查询并返回table对象
      * @param env
      * @param tabEnv
      * @return
-     */
+     *//*
+
     private static Table singleDataSet(ExecutionEnvironment env, BatchTableEnvironment tabEnv){
 
 
@@ -125,3 +132,4 @@ public class FromMysqlToMysqlDemo {
     }
 
 }
+*/

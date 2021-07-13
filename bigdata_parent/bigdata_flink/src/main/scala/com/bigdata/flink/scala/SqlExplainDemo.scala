@@ -1,3 +1,4 @@
+/*
 package com.bigdata.flink.scala
 
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
@@ -25,4 +26,4 @@ object SqlExplainDemo {
 
   }
 
-}
+}*/
